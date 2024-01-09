@@ -4750,6 +4750,7 @@ text,
   line-height: 24px;
   border: none;
   outline: none;
+  display: none;
 }
 .casinoAllowedCountriesWidget__btn.active svg {
   transform: rotate(180deg);
@@ -4762,11 +4763,12 @@ text,
   border-radius: 50%;
 }
 .support_contacts {
-  padding: 40px;
+  padding: 40px !important;
   background: #ffffff;
   border-radius: 20px;
   width: 100%;
   margin-bottom: 30px;
+  display: none;
 }
 .support_contacts .title-box {
   width: 100%;
@@ -5412,10 +5414,12 @@ text,
   background: #ffffff;
   border-radius: 20px;
   padding: 24px 16px;
+  display: none;
 }
 @media (min-width: 768px) {
   .casinoVisitsWidget__wrapper {
     padding: 40px;
+    display: none;
   }
 }
 .casinoVisitsWidget__title {
@@ -5877,6 +5881,7 @@ text,
   background: #ffffff;
   padding: 24px 16px 8px;
   border-radius: 20px;
+  display: none;
 }
 @media (min-width: 768px) {
   .casinoSoftwareProviderWidget {
@@ -6718,6 +6723,7 @@ text,
   border-radius: 20px;
   background: #ffffff;
   border: none;
+  display: none;
 }
 @media (min-width: 768px) {
   .testimonialWidget__form {
